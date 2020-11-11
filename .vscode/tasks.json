@@ -6,7 +6,7 @@
     {
       "label": "Build python package",
       "type": "shell",
-      "command": "python3 setup.py sdist",
+      "command": "python setup.py sdist",
       "presentation": {
         "echo": true,
         "reveal": "always",
@@ -24,7 +24,7 @@
     {
       "label": "Install python package from development environment",
       "type": "shell",
-      "command": "pip3 install -e .",
+      "command": "pip install -e .",
       "presentation": {
         "echo": true,
         "reveal": "always",

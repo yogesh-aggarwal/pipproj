@@ -4,7 +4,7 @@ with open("README.md", "r") as read_me:
     longDesc = read_me.read()
 
 setup(
-    name="sql_tools",
+    name="pipproj",
     packages=find_packages(),
     version="0.1.0",
     license="AGPL 3.0",
@@ -14,9 +14,9 @@ setup(
     include_package_data=True,
     author="Yogesh Aggarwal",
     author_email="yogeshdev@gmail.com",
-    url="https://github.com/yogesh-aggarwal/pyenv",
+    url="https://github.com/yogesh-aggarwal/pipproj",
     download_url=
-    "https://raw.githubusercontent.com/yogesh-aggarwal/pyenv/master/dist/pyenv-0.1.0.tar.gz",
+    "https://raw.githubusercontent.com/yogesh-aggarwal/pipproj/master/dist/pipproj-0.1.0.tar.gz",
     keywords=["CLI", "Environment", "Management"],
     install_requires=["pyyaml"],
     classifiers=[
